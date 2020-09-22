@@ -1,0 +1,106 @@
+a ~ $ cd d:\public
+gimpa public $ dir
+20161225AMCGiftCard.pdf              Legal
+ACoupon.pdf                          Liam
+Astronomy                            Manuals
+Backup                               Medical
+BransonTripWinningsInfo20170508.pdf  Mom
+Camping                              MovieTicket20161229.pdf
+Cars                                 Neat\ Data
+census2020.pdf                       Nextcloud
+Church                               Optimation
+CLSC                                 Pets
+Colonnade                            Pictures
+Correspondence                       Projects
+coupon_316613292.pdf                 Publications
+coupon_316713292.pdf                 QuickStartGuide_AcerMonitor20161231.zip
+coupon_317146632.pdf                 RealEstate
+Coupons                              Receipts
+Cox                                  Recordings
+Development                          Records
+DLScan20170522.pdf                   Regina
+Documentation                        Regina20180228.zip
+Family                               Retirement
+Friends                              Rick
+Games                                Scans
+Git                                  Scripts
+Guns                                 Security
+House                                TacOpsCav\ v4
+HP6529SetUpInfo.txt                  Temp
+HPPSdr.exe                           Thompson_20160725Genealogy.DUP
+HTKKGRFPT67MPV.pdf                   Thompson_20160725Genealogy.rmgc
+ImageDB1.nwdb                        Tim
+Insurance                            ToDoList.txt
+Jake                                 Trailer
+Jeromey                              Travel
+JewelryCollectibles                  UnitedFiber
+Kevin                                Videos
+KevinExpenses.xlsx                   WarrantiesAndManuals
+KevinsPhone                          Writing
+LCS
+gimpa public $ cd projects
+gimpa projects $ dir
+AddLoginExample.sql  Classes  NetBeans  Repos  Unity  VS
+gimpa projects $ mkdir GetHubMasterClass
+gimpa projects $ dir
+AddLoginExample.sql  Classes  GetHubMasterClass  NetBeans  Repos  Unity  VS
+gimpa projects $ mv GetHubMasterClass GitHubMasterClass
+gimpa projects $ dir
+AddLoginExample.sql  Classes  GitHubMasterClass  NetBeans  Repos  Unity  VS
+gimpa projects $ mkdir code
+gimpa projects $ dir
+AddLoginExample.sql  code               NetBeans  Unity
+Classes              GitHubMasterClass  Repos     VS
+gimpa projects $ rm code
+rm: cannot remove 'code': Is a directory
+gimpa projects $ rm -v code
+rm: cannot remove 'code': Is a directory
+gimpa projects $ rmdir code
+gimpa projects $ dir
+AddLoginExample.sql  Classes  GitHubMasterClass  NetBeans  Repos  Unity  VS
+gimpa projects $ cd GitHubMasterClass/
+gimpa GitHubMasterClass $ dir
+gimpa GitHubMasterClass $ mv GitHubMasterClass GitGitHubMasterClass
+mv: cannot stat 'GitHubMasterClass': No such file or directory
+gimpa GitHubMasterClass $ cd .\
+> ;
+gimpa GitHubMasterClass $ cd ./
+gimpa GitHubMasterClass $ dir
+gimpa GitHubMasterClass $ cd ../
+gimpa projects $ dir
+AddLoginExample.sql  Classes  GitHubMasterClass  NetBeans  Repos  Unity  VS
+gimpa projects $ mv GitHubMasterClass GitGitHubMasterClass
+gimpa projects $ dir
+AddLoginExample.sql  Classes  GitGitHubMasterClass  NetBeans  Repos  Unity  VS
+gimpa projects $ code GitGitHubMasterClass/
+bash: code: command not found
+gimpa projects $ cd GitGitHubMasterClass/
+gimpa GitGitHubMasterClass $ dir
+index.html
+gimpa GitGitHubMasterClass $ git init
+Initialized empty Git repository in D:/Public/Projects/GitGitHubMasterClass/.git/
+gimpa (master #) GitGitHubMasterClass $ ls -a
+./  ../  .git/  index.html
+gimpa (master #) GitGitHubMasterClass $ git add index.html
+gimpa (master +) GitGitHubMasterClass $ ls -a
+./  ../  .git/  index.html
+gimpa (master +) GitGitHubMasterClass $ git commit -m "Add index.html"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'gimpa@KevinsPowerSpec.(none)')
+gimpa (master +) GitGitHubMasterClass $ git config --global user.email "ktobrien@programmer.net
+> "
+gimpa (master +) GitGitHubMasterClass $ git config --global user.name "Kevin OBrien"
+gimpa (master +) GitGitHubMasterClass $ git commit -m "Add index.html"          [master (root-commit) 68922fd] Add index.html
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+gimpa (master) GitGitHubMasterClass $
